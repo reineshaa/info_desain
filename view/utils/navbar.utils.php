@@ -1,5 +1,9 @@
 <ul>
     <li><a class="active" href="#home">Dashboard</a></li>
+    <li><a href="#projek">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+
 </ul>
 
 <style>

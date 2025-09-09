@@ -6,11 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <?php include __DIR__ . "/view/navbar.utils.php"; ?>
+    <?php include __DIR__ . "/utils/navbar.utils.php"; ?>
 
     <?php
     include __DIR__ . "/../controller/controller.php";
-    include __DIR__ . "/view/view.php";
+    include __DIR__ . "/judul/view.php";
 
     $projects = new View();
     ?>

@@ -24,11 +24,11 @@ class View extends Controller {
         }
         foreach($detailProjects as $detail){ ?>
             <div>
-                <h3><?php echo $detail['judul']?></h3>
-                <p>tema: <?php echo $detail['tema']?></p>
-                <p>link desain: <?php echo $detail['link desain']?></p>
-                <p>desainer: <?php echo $detail['desainer']?></p>
-                <p>client: <?php echo $detail['client']?></p>
+                <h3><?php echo $detail['judul'];?></h3>
+                <p>tema: <?php echo $detail['tema'];?></p>
+                <p>link desain: <?php echo $detail['link desain'];?></p>
+                <p>desainer: <?php echo $detail['desainer'];?></p>
+                <p>client: <?php echo $detail['client'];?></p>
             </div>
             <?php
         }

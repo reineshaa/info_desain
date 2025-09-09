@@ -1,5 +1,7 @@
 <?php
 
+include_once __DIR__ . "/../view/connection.php";
+
 class Model extends Connection{
     protected function findAll(){
         $sql = "SELECT * FROM project";

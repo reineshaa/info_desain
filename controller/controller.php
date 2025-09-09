@@ -1,5 +1,7 @@
 <?php
 
+include_once __DIR__ . "/../model/model.php";
+
 class Controller extends Model{
     public function getProjects(){
         return $this->findAll();

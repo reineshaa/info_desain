@@ -5,12 +5,12 @@ class View extends Controller {
 
         foreach($projects as $project){ ?>
             <tr>
-                <td><? echo $project['id']; ?></td>
-                <td><? echo $project['judul']; ?></td>
-                <td><? echo $project['tema']; ?></td>
-                <td><? echo $project['link desain']; ?></td>
-                <td><? echo $project['desainer']; ?></td>
-                <td><? echo $project['client']; ?></td>
+                <td><?php echo $project['id']; ?></td>
+                <td><?php echo $project['judul']; ?></td>
+                <td><?php echo $project['tema']; ?></td>
+                <td><?php echo $project['link desain']; ?></td>
+                <td><?php echo $project['desainer']; ?></td>
+                <td><?php echo $project['client']; ?></td>
             </tr>
 <?php
         }
